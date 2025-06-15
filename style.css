@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
+body {
+  font-family: "Montserrat", Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 40px 20px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.score-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 15px 40px;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  background-color: #fff;
+  margin: 0 auto 30px auto;
+  width: fit-content;
+  user-select: none;
+}
+
+.score-container > div:first-child {
+  border-right: 2px solid #ccc;
+  padding-right: 50px;
+  margin-right: 0;
+}
+
+.score {
+  color: #333;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.choice-section {
+  width: 150px;
+  margin: 0 30px;
+}
+
+.choice-display {
+  font-size: 60px;
+  height: 100px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+.vs {
+  font-size: 30px;
+  margin: 0 10px;
+}
+
+.buttons button {
+  font-size: 18px;
+  margin: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  background-color: white;
+  transition: background-color 0.5s ease;
+}
+
+.buttons button:hover {
+  background-color: rgba(45, 42, 45, 0.044);
+}
+
+.result-text {
+  font-size: 24px;
+  margin-top: 20px;
+  font-weight: bold;
+}
